@@ -5,6 +5,7 @@ function onSignIn(googleUser) {
     $("#image").attr('src', profile.getImageUrl());
     $(".data").css("display", "block");
     $(".g-signin2").css("display", "none");
+    alert("You have been signed out successfully");
 }
 
 function signOut() {
